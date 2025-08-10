@@ -1,0 +1,7 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to all inputs with LLM action
+    steps:
+      - intent: nlu_fallback # catch-all fallback intent
+      - action: action_local_llm_response # call custom action

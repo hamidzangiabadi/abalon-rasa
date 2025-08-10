@@ -1,0 +1,34 @@
+{
+  "text": {
+    "سلام": 3,
+    "چطوری": 8,
+    "هوا": 6,
+    "چطوره": 7,
+    "هر": 5,
+    "سوالی": 4,
+    "داری": 2,
+    "اینجا": 0,
+    "بنویس": 1
+  },
+  "intent": {
+    "catch_all": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 8,
+    "action_session_start": 10,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "action_local_llm_response": 7
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

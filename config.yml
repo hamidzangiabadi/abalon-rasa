@@ -1,0 +1,14 @@
+language: fa
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 1
+- name: FallbackClassifier
+  threshold: 1.0
+  ambiguity_threshold: 1.0
+
+policies:
+- name: RulePolicy
+assistant_id: 20250809-233218-pure-lane

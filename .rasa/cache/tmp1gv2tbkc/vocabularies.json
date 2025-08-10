@@ -1,0 +1,44 @@
+{
+  "text": {
+    "سلام": 12,
+    "قیمت": 13,
+    "سرور": 11,
+    "چنده": 16,
+    "what": 8,
+    "is": 5,
+    "your": 9,
+    "sla": 6,
+    "how": 3,
+    "can": 1,
+    "i": 4,
+    "get": 2,
+    "a": 0,
+    "vps": 7,
+    "راهنمای": 10,
+    "پنل": 15,
+    "کاربری": 17,
+    "من": 14,
+    "کو": 18
+  },
+  "intent": {
+    "ask_llm": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 7,
+    "action_restart": 8,
+    "action_session_start": 10,
+    "action_default_fallback": 5,
+    "action_deactivate_loop": 2,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 3,
+    "action_default_ask_rephrase": 4,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 1,
+    "action_extract_slots": 6,
+    "action_answer_with_llm": 0
+  },
+  "action_text": null,
+  "intent_response_key": null
+}
